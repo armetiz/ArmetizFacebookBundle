@@ -43,7 +43,7 @@ class ArmetizFacebookExtension extends Extension {
 
             $isDefault = $sdk["default"];
 
-            $facebookDef = new Definition("Armetiz\FacebookBundle\Impl\FacebookSessionPersistence", array($session));
+            $facebookDef = new Definition("Armetiz\FacebookBundle\FacebookSessionPersistence", array($session));
             $facebookDef->addArgument($facebookConfig);
 
             $container->setDefinition("armetiz.facebook." . $name, $facebookDef);

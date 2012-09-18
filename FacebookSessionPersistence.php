@@ -1,6 +1,6 @@
 <?php
 
-namespace Armetiz\FacebookBundle\Impl;
+namespace Armetiz\FacebookBundle;
 
 use Symfony\Component\HttpFoundation\Session\Session;
 
