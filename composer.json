@@ -1,0 +1,28 @@
+{
+    "name": "armetiz/facebook-bundle",
+    "type": "symfony-bundle",
+    "description": "A simple bundle to expose Facebook SDK",
+    "keywords": ["Leezy", "Facebook", "SDK"],
+    "homepage": "http://www.armetiz.info",
+    "license": "",
+    "authors": [
+        {
+            "name": "Thomas Tourlourat",
+            "email": "thomas@tourlourat.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "facebook/php-sdk": ">=3.1.1",
+        "symfony/symfony": "2.1.*"
+    },
+    "autoload": {
+        "psr-0": { "Armetiz\\FacebookBundle": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "target-dir": "Armetiz/FacebookBundle"
+}
