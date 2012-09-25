@@ -27,13 +27,13 @@ class HomeController extends Controller {
 
 ## Installation
 
-Installation is a quick 4 step process:
+Installation is a quick 3 step process:
 
 1. Download ArmetizFacebookBundle using composer
 2. Enable the Bundle
 3. Configure your application's config.yml
 
-### Step 1: Download FOSUserBundle using composer
+### Step 1: Download ArmetizFacebookBundle using composer
 
 Add ArmetizFacebookBundle in your composer.json:
 
