@@ -57,7 +57,7 @@ class FacebookSessionPersistence extends \BaseFacebook
      *
      * @return mixed
      */
-    protected function getPersistentData($key, $default = false)
+    public function getPersistentData($key, $default = false)
     {
         if (!in_array($key, self::$kSupportedKeys)) {
             self::errorLog('Unsupported key passed to getPersistentData.');
