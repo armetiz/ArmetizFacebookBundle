@@ -2,9 +2,9 @@
     "name": "armetiz/facebook-bundle",
     "type": "symfony-bundle",
     "description": "A simple bundle to expose Facebook SDK",
-    "keywords": ["Armetiz", "Facebook", "SDK"],
+    "keywords": ["symfony", "facebook", "SDK"],
     "homepage": "http://www.armetiz.info",
-    "license": "",
+    "license": "MIT",
     "authors": [
         {
             "name": "Thomas Tourlourat",
